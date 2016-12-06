@@ -30,12 +30,12 @@
 - [ ] HTML is compressed with gzip
 - [ ] Usage of correct image image formats
 - [ ] Usage of responsive images
-- [ ] Images are optimized (ImageOptim…)
+- [ ] Images are optimised ([kraken.io](https://kraken.io/))
 - [ ] Image are cached in the browser
-- [ ] SVG files are minized
+- [ ] SVG files are minified (SVGGO)
 - [ ] SVG files are used where possible
 - [ ] Only fonts that are used are loaded
-- [ ] Browser cache is used wird genutzt
+- [ ] Browser cache is used
 - [ ] ETags is not used
 - [ ] Expires, cache-control and max-age headers for static resources is set to 1 year
 
@@ -50,6 +50,7 @@ Usually I measure the main pages of a project here.
 - [ ] Size of all files combined
 - [ ] Download time of the page
 - [ ] Google Page Speed analyses (Desktop, Mobile and Mobile UX; x of 100)
+- [ ] WebPageTest analysis 
 
 ### Rendering Performance
 
@@ -58,14 +59,14 @@ Usually I measure the main pages of a project here.
 - [ ] Scripts are loaded in the footer
 - [ ] Scripts are loaded with `defer`-attribute
 - [ ] Scripts are loaded in the header after styles are loaded
-- [ ] Scrollen is possible with 60fps
+- [ ] Scrolling is possible with 60fps
 - [ ] No usage of document.write
 
 ## Device performance
 
 - [ ] CPU usage
 - [ ] Memory usage
-- [ ] GPU Auslastung
+- [ ] GPU usage
 
 ## Cross-Browser
 
@@ -100,7 +101,7 @@ Usually I measure the main pages of a project here.
 - [ ] No 404-errors
 - [ ] No 500-errors
 - [ ] Canonical Tags are used if applicable
-- [ ] Ratio Code:Inhalt is around 25% for shop pages and 50% for content pages
+- [ ] Ratio Code: Content is around 25% for shop pages and 50% for content pages
 
 ## Accessibility
 
@@ -115,7 +116,7 @@ Usually I measure the main pages of a project here.
 
 - [ ] HTTPS is used on all pages
 - [ ] There is no mixed content on the pages
-- [ ] external plugins and trackings get loaded via HTTPS
+- [ ] external plugins and tracking get loaded via HTTPS
 - [ ] Robots.txt is in use
 - [ ] Cross-Site-Scripting is not possible
 - [ ] HSTS Header is set
